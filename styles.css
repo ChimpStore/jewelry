@@ -1,0 +1,458 @@
+
+/* ////////////////////////MAIN CSS//////////////////// */
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/* ////////////////////MY MODIFICATIONS/////////////// */
+
+
+
+.gold{
+  color: gold;
+  font-weight: bold;
+}
+
+.green{
+  color: green;
+  font-weight: bold;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium; */
+}
+
+
+h5 {
+  color: orangered;
+}
+
+h1 {
+  color: orangered;
+}
+
+.cart-icon {
+  display: block;
+  max-width: 50px;
+  margin: -10px auto 2px;
+}
+
+.pay-backgroung {
+background-color: #f5f5f5;
+}
+
+.pay-logo {
+  max-width: 100px;
+}
+
+.cart-text{
+  color: orangered;
+  font-weight: 300;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* font-style: oblique; */
+}
+
+
+
+  /* ///////////////////////alert message////////////////////// */
+
+  .alert{
+    max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+    background-color: #f44336;
+    color: white;
+    /* margin-bottom: 15px; */
+  }
+  
+  .closebtn{
+    /* margin-left: 15px; */
+    color: white;
+    /* font-weight: bold; */
+    /* float: right; */
+    /* font-size: 22px; */
+    /* line-height: 20px; */
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover{
+    color: black;
+  }
+
+
+
+  /* ///////////////////////END -- alert message////////////////////// */
+
+
+
+
+
+
+
+
+/* ////////////////////END MAIN CSS/////////////////////////////// */
+
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+/* ////////////////////////////////// SIGN UP SECTION CSS /////////////////////////////// */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle {
+    border-radius: 0;
+    margin-bottom: -1px;
+
+}
+
+.bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+
+
+  /* //////////////////////////TEST SECTION/////////////////////////// */
+
+
+  /****************************************************
+GENERAL
+*****************************************************/
+
+/* body {
+  font-family: 'open sans', sans-serif;
+} */
+
+    /****************************************************
+    TWO COLUMN LAYOUT
+    PAGE: CONTACT
+    *****************************************************/
+
+    #primary {
+      width: 50%;
+      float: left;
+      }
+  #secondary {
+      width: 40%;  
+      float: right;
+      }
+
+
+
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+img:hover   {
+
+  transform: scale(1.1) rotate(360deg);
+
+
+}
+
+
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+.space {
+  color: orangered;
+  font-weight: bolder;
+}
+
+/****************************************************
+HEADING
+*****************************************************/
+
+/* header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+} */
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'changa one', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+/****************************************************
+NAVIGATION
+*****************************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block
+}
+
+/* nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+} */
+
+/****************************************************
+FOOTER
+*****************************************************/
+
+footer {
+  font-size: 0.75em;  
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/****************************************************
+PAGE: PORTFOLIO
+*****************************************************/
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;    
+}
+
+.gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+
+}
+
+
+
+
+/****************************************************
+PAGE: ABOUT
+*****************************************************/
+
+
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 20%;  /* when you set it to 100% it gives it a round shape*/
+}
+
+
+
+/****************************************************
+PAGE: CONTACT
+*****************************************************/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;              /*optional to me*/
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/instagram2.jpg');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/facebook2.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter2.png');
+}
+
+
+
+
+
+/****************************************************
+COLORS
+*****************************************************/
+
+
+/*site body */
+body {
+  background-color: #fff;  
+  color: #999;
+}
+
+/* green header */
+/* header {
+  background: #6ab47b;
+  border-color: #599a68;
+} */
+
+/* nav background on mobil device */
+/* nav {
+  background: #599a68 ;
+} */
+
+
+
+/* links */
+ /* a {
+  color: #6ab47b;
+}  */
+
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link a hover added makes it possible for that link to change color when u hover around it */
+/* nav a.selected, nav a:hover {
+  color: #32673f;
+} */
+
+
